@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "web-portofolio-5ed03"
+  },
+  "targets": {
+    "web-portofolio-5ed03": {
+      "hosting": {
+        "main": [
+          "portofolio-kennedy-wang"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

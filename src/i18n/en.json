@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact",
+    "hireMe": "Hire Me"
+  },
+  "hero": {
+    "label": "INFORMATICS STUDENT • WEB DEVELOPER",
+    "titleLine1": "Building digital",
+    "titleLine2": "experiences",
+    "titleLine3": "with",
+    "titleHighlight": "precision",
+    "description": "Specializing in high-performance web applications where architectural integrity meets editorial-grade UI.",
+    "viewProjects": "View Projects",
+    "getInTouch": "Get in Touch",
+    "availableBadge": "Available for projects"
+  },
+  "about": {
+    "label": "ABOUT ME",
+    "heading": "Professional Background",
+    "paragraph1": "I approach code as a craft, balancing the right ingredients of technical performance with the fluid needs of human-centric design. While my foundation is built on rigorous academic coursework, my practical skills have been honed through extensive campus projects. I have experience taking complex requirements, from system design to application deployment, and turning them into functional, well-architected solutions.",
+    "paragraph2prefix": "My philosophy is to build ",
+    "paragraph2highlight": "engineering clarity",
+    "paragraph2suffix": ". Whether building a system design, crafting a database query, or fine-tuning pixel-perfect interfaces, the goal remains the same: to create software that feels as good to use as it is robust to maintain.",
+    "education": "Education",
+    "highlightSemesterLabel": "Semester",
+    "highlightSemesterValue": "6th",
+    "highlightFocusLabel": "Focus",
+    "highlightFocusValue": "Web & Cloud",
+    "highlightGpaLabel": "GPA",
+    "highlightGpaValue": "3.97",
+    "edu1Institution": "Universitas Bunda Mulia",
+    "edu1Degree": "B.Sc. Informatics",
+    "edu1Years": "2023 — Present",
+    "edu2Institution": "SMA Budi Mulia Jakarta",
+    "edu2Degree": "Science Major",
+    "edu2Years": "2020 — 2023"
+  },
+  "projects": {
+    "label": "PROJECTS",
+    "heading": "Selected Work",
+    "filterAll": "All",
+    "filterWeb": "Web",
+    "filterMobile": "Mobile",
+    "filterOther": "Other",
+    "code": "Code",
+    "liveDemo": "Live Demo"
+  },
+  "skills": {
+    "label": "SKILLS",
+    "heading": "Technical Arsenal",
+    "description": "Technologies and tools I use to bring ideas to life.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "toolsOthers": "Tools & Others",
+    "planningToLearn": "Planning to Learn",
+    "planningToLearnDesc": "Technologies on my radar that I'm excited to explore next.",
+    "upcoming": "Upcoming"
+  },
+  "contact": {
+    "label": "AVAILABILITY",
+    "heading": "Let's Connect",
+    "description": "Currently open to select freelance projects or an internship program. If you have a vision that requires precision, I'd love to hear it.",
+    "nameLabel": "Name",
+    "namePlaceholder": "Your name",
+    "emailLabel": "Email",
+    "emailPlaceholder": "you@email.com",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell me about your project...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "sent": "Message Sent ✓",
+    "error": "Failed to send message. Please try again."
+  },
+  "footer": {
+    "rights": "Portfolio. All rights reserved."
+  }
+}

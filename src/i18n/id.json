@@ -1,0 +1,81 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "projects": "Proyek",
+    "skills": "Keahlian",
+    "contact": "Kontak",
+    "hireMe": "Hubungi Saya"
+  },
+  "hero": {
+    "label": "MAHASISWA INFORMATIKA • WEB DEVELOPER",
+    "titleLine1": "Membangun",
+    "titleLine2": "pengalaman digital",
+    "titleLine3": "dengan",
+    "titleHighlight": "presisi",
+    "description": "Mengkhususkan diri dalam aplikasi web berkinerja tinggi di mana integritas arsitektur bertemu dengan UI berkelas editorial.",
+    "viewProjects": "Lihat Proyek",
+    "getInTouch": "Hubungi Saya",
+    "availableBadge": "Tersedia untuk proyek"
+  },
+  "about": {
+    "label": "TENTANG SAYA",
+    "heading": "Latar Belakang Profesional",
+    "paragraph1": "Saya melihat pemrograman sebagai sebuah keahlian yang menyeimbangkan performa teknis dengan desain yang berpusat pada pengguna. Fondasi pengetahuan saya dibangun melalui kurikulum akademis yang kuat, namun keterampilan praktis saya terasah secara langsung melalui berbagai proyek kampus. Saya terbiasa menerjemahkan kebutuhan sistem yang kompleks menjadi solusi aplikasi yang fungsional dan memiliki arsitektur yang baik.",
+    "paragraph2prefix": "Filosofi saya adalah membangun ",
+    "paragraph2highlight": "kejelasan teknis",
+    "paragraph2suffix": ". Baik membangun desain sistem, menyusun query database, atau menyempurnakan antarmuka pixel-perfect, tujuannya tetap sama: menciptakan perangkat lunak yang nyaman digunakan sekaligus tangguh untuk dikelola.",
+    "education": "Pendidikan",
+    "highlightSemesterLabel": "Semester",
+    "highlightSemesterValue": "6",
+    "highlightFocusLabel": "Fokus",
+    "highlightFocusValue": "Web & Cloud",
+    "highlightGpaLabel": "IPK",
+    "highlightGpaValue": "3.97",
+    "edu1Institution": "Universitas Bunda Mulia",
+    "edu1Degree": "S1 Informatika",
+    "edu1Years": "2023 — Sekarang",
+    "edu2Institution": "SMA Budi Mulia Jakarta",
+    "edu2Degree": "Jurusan IPA",
+    "edu2Years": "2020 — 2023"
+  },
+  "projects": {
+    "label": "PROYEK",
+    "heading": "Karya Terpilih",
+    "filterAll": "Semua",
+    "filterWeb": "Web",
+    "filterMobile": "Mobile",
+    "filterOther": "Lainnya",
+    "code": "Kode",
+    "liveDemo": "Demo Langsung"
+  },
+  "skills": {
+    "label": "KEAHLIAN",
+    "heading": "Gudang Teknis",
+    "description": "Teknologi dan alat yang saya gunakan untuk mewujudkan ide.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "toolsOthers": "Alat & Lainnya",
+    "planningToLearn": "Rencana Dipelajari",
+    "planningToLearnDesc": "Teknologi yang ingin saya pelajari selanjutnya.",
+    "upcoming": "Segera"
+  },
+  "contact": {
+    "label": "KETERSEDIAAN",
+    "heading": "Mari Terhubung",
+    "description": "Saat ini terbuka untuk proyek freelance atau program magang. Jika Anda memiliki visi yang membutuhkan presisi, saya ingin mendengarnya.",
+    "nameLabel": "Nama",
+    "namePlaceholder": "Nama Anda",
+    "emailLabel": "Email",
+    "emailPlaceholder": "anda@email.com",
+    "messageLabel": "Pesan",
+    "messagePlaceholder": "Ceritakan tentang proyek Anda...",
+    "send": "Kirim Pesan",
+    "sending": "Mengirim...",
+    "sent": "Pesan Terkirim ✓",
+    "error": "Gagal mengirim pesan. Silakan coba lagi."
+  },
+  "footer": {
+    "rights": "Portfolio. Hak cipta dilindungi."
+  }
+}
