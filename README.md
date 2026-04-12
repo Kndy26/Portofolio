@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built to showcase web developmen
 
 ## Live Demo
 
-[View Live Demo Here](https://your-deployment-url-here.com)
+[View Live Demo Here](https://portofolio-kennedy-wang.web.app/)
 
 ## Tech Stack
 
@@ -42,8 +42,8 @@ The project follows a modular, feature-focused directory structure:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/portofolio.git
-   cd portofolio
+   git clone https://github.com/Kndy26/Portofolio.git
+   cd Portofolio
    ```
 
 2. **Install dependencies:**
@@ -60,6 +60,7 @@ The project follows a modular, feature-focused directory structure:
    VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
    VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
    VITE_FIREBASE_APP_ID=your_app_id
+   VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
    ```
 
 4. **Run the development server:**
@@ -82,8 +83,8 @@ The project follows a modular, feature-focused directory structure:
 
 ## Author
 
-**Kenneth**  
-Informatics Student / Frontend Developer  
+**Kennedy Wang**  
+Informatics Student 
 - **Focus**: Web & Cloud Engineering  
-- **GitHub**: [github.com/yourusername](https://github.com/yourusername)  
-- **Contact**: [Insert LinkedIn or Contact Method]
+- **GitHub**: [github.com/Kndy26](https://github.com/Kndy26)  
+- **Contact**: [LinkedIn](https://www.linkedin.com/in/kennedy-wang-67616a370/?locale=in)
