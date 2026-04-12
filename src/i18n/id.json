@@ -8,12 +8,12 @@
     "hireMe": "Hubungi Saya"
   },
   "hero": {
-    "label": "MAHASISWA INFORMATIKA • WEB DEVELOPER",
+    "label": "MAHASISWA INFORMATIKA • AI SPECIALIZATION",
     "titleLine1": "Membangun",
     "titleLine2": "pengalaman digital",
     "titleLine3": "dengan",
     "titleHighlight": "presisi",
-    "description": "Mengkhususkan diri dalam aplikasi web berkinerja tinggi di mana integritas arsitektur bertemu dengan UI berkelas editorial.",
+    "description": "Saya adalah mahasiswa Informatika semester 6 dengan fondasi kuat dalam rekayasa perangkat lunak dan kecerdasan buatan. Fokus akademis saya telah membekali saya dengan keterampilan untuk mengembangkan aplikasi web yang tangguh sekaligus mengeksplorasi solusi mutakhir berbasis AI.",
     "viewProjects": "Lihat Proyek",
     "getInTouch": "Hubungi Saya",
     "availableBadge": "Tersedia untuk proyek"
@@ -76,6 +76,6 @@
     "error": "Gagal mengirim pesan. Silakan coba lagi."
   },
   "footer": {
-    "rights": "Portfolio. Hak cipta dilindungi."
+    "rights": "Portofolio Kennedy Wang. Hak cipta dilindungi."
   }
 }

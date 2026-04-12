@@ -8,12 +8,12 @@
     "hireMe": "Hire Me"
   },
   "hero": {
-    "label": "INFORMATICS STUDENT • WEB DEVELOPER",
+    "label": "INFORMATICS STUDENT • AI SPECIALIZATION",
     "titleLine1": "Building digital",
     "titleLine2": "experiences",
     "titleLine3": "with",
     "titleHighlight": "precision",
-    "description": "Specializing in high-performance web applications where architectural integrity meets editorial-grade UI.",
+    "description": "I am a 6th-semester Informatics student with a strong foundation in both software engineering and artificial intelligence. My academic focus has equipped me with the skills to develop robust web applications while also exploring the cutting edge of AI-driven solutions.",
     "viewProjects": "View Projects",
     "getInTouch": "Get in Touch",
     "availableBadge": "Available for projects"
@@ -76,6 +76,6 @@
     "error": "Failed to send message. Please try again."
   },
   "footer": {
-    "rights": "Portfolio. All rights reserved."
+    "rights": "Portfolio Kennedy Wang. All rights reserved."
   }
 }
