@@ -12,7 +12,8 @@ A modern, responsive personal portfolio website built to showcase web developmen
 - **Vite**: Used as the build tool and development server. It provides lightning-fast Hot Module Replacement (HMR) and optimized, minified production builds.
 - **Tailwind CSS v4**: Utility-first CSS framework implemented to establish a consistent design system. It enables rapid, responsive styling directly within components without managing separate stylesheets.
 - **Framer Motion**: Integrated for fluid layout transitions and interactive UI element animations. It improves user engagement with natural, physics-based micro-interactions.
-- **Firebase**: Utilized as the Backend-as-a-Service (BaaS) for the contact form, securely capturing and storing user submissions in Firestore.
+- **Firebase**: Utilized solely for application hosting and deployment.
+- **Web3Forms**: Integrated to handle contact form submissions, routing messages directly to a personal email address without requiring a complex backend setup.
 - **React Context / Custom Hooks**: Powers internationalization (i18n), offering seamless language switching between English and Bahasa Indonesia.
 
 ## Features
@@ -21,7 +22,7 @@ A modern, responsive personal portfolio website built to showcase web developmen
 - **Dynamic Projects Grid**: Masonry-style layout for rendering project cards of varying sizes without unwanted vertical gaps.
 - **Smooth Animations**: Integrated scrolling and hover animations carefully mapped to user intents for an engaging feel.
 - **Localization**: Dual-language support with automatic state synchronization.
-- **Real-Time Contact Form**: Working contact form hooked directly to a Firebase backend.
+- **Direct Contact Form**: Working contact form powered by Web3Forms that routes submissions directly to email.
 - **Clean Architecture**: Modular styling and rendering logic keeping the component structure maintainable.
 
 ## Project Structure
@@ -52,15 +53,9 @@ The project follows a modular, feature-focused directory structure:
    ```
 
 3. **Configure Environment Variables:**
-   Create a `.env` file in the root directory and add your Firebase credentials:
+   Create a `.env` file in the root directory and add your Web3Forms access key:
    ```env
-   VITE_FIREBASE_API_KEY=your_api_key
-   VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
-   VITE_FIREBASE_PROJECT_ID=your_project_id
-   VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-   VITE_FIREBASE_MESSAGING_SENDER_ID=your_messaging_sender_id
-   VITE_FIREBASE_APP_ID=your_app_id
-   VITE_FIREBASE_MEASUREMENT_ID=your_measurement_id
+   VITE_WEB3FORMS_KEY=your_web3forms_key
    ```
 
 4. **Run the development server:**

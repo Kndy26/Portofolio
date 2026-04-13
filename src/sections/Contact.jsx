@@ -4,8 +4,7 @@ import { Send, ArrowUpRight, Loader2 } from 'lucide-react'
 import { GithubIcon, LinkedinIcon, TwitterIcon } from '../components/BrandIcons'
 import SectionReveal from '../components/SectionReveal'
 import { useLanguage } from '../i18n/LanguageContext'
-import { collection, addDoc, serverTimestamp } from 'firebase/firestore'
-import { db } from '../firebase'
+
 
 const socials = [
   { label: 'GitHub', href: 'https://github.com/Kndy26', icon: GithubIcon },
@@ -26,18 +25,32 @@ export default function Contact() {
     setError('')
 
     try {
-      await addDoc(collection(db, 'messages'), {
-        name: formData.name,
-        email: formData.email,
-        message: formData.message,
-        createdAt: serverTimestamp()
-      })
-      
-      setSubmitted(true)
-      setFormData({ name: '', email: '', message: '' })
-      setTimeout(() => setSubmitted(false), 3000)
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          access_key: import.meta.env.VITE_WEB3FORMS_KEY,
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+        }),
+      });
+
+      const json = await response.json();
+
+      if (response.status === 200) {
+        setSubmitted(true)
+        setFormData({ name: '', email: '', message: '' })
+        setTimeout(() => setSubmitted(false), 3000)
+      } else {
+        console.error("Error submitting form: ", json)
+        setError(json.message || t('contact.error'))
+      }
     } catch (err) {
-      console.error("Error adding document: ", err)
+      console.error("Error submitting form: ", err)
       setError(t('contact.error'))
     } finally {
       setIsSubmitting(false)
