@@ -38,6 +38,18 @@ const projects = [
     size: 'large',
   },
   {
+    id: 8,
+    title: 'Digital Empathy Campaign',
+    description:
+      'A campaign website built to raise awareness about digital empathy and promote positive interactions in the cyber world.',
+    tech: ['React.js', 'Vite', 'Tailwind CSS', 'Firebase'],
+    category: 'Web',
+    github: 'https://github.com/Kndy26/Digital-Empathy-Campaign-Website',
+    live: 'https://digital-empathy-cyber.web.app/',
+    color: 'from-fuchsia-800 to-pink-900',
+    size: 'small',
+  },
+  {
     id: 3,
     title: 'Simple Running Path Generator',
     description:
@@ -122,9 +134,8 @@ function ProjectCard({ project, t }) {
     >
       {/* Background */}
       <div
-        className={`absolute inset-0 bg-gradient-to-br ${project.color} transition-transform duration-500 ${
-          hovered ? 'scale-105' : 'scale-100'
-        }`}
+        className={`absolute inset-0 bg-gradient-to-br ${project.color} transition-transform duration-500 ${hovered ? 'scale-105' : 'scale-100'
+          }`}
       />
 
       {/* Grid pattern overlay */}
@@ -132,22 +143,20 @@ function ProjectCard({ project, t }) {
 
       {/* Content */}
       <div
-        className={`relative z-10 flex flex-col w-full ${
-          isLarge
+        className={`relative z-10 flex flex-col w-full ${isLarge
             ? 'p-8 md:p-10 min-h-[320px] md:min-h-[380px]'
             : 'p-6 md:p-8 min-h-[220px] md:min-h-[260px]'
-        }`}
+          }`}
       >
         {/* Tech badges - top */}
         <div className="flex flex-wrap gap-2 w-full">
           {project.tech.map((t) => (
             <span
               key={t}
-              className={`font-medium tracking-wide uppercase bg-white/10 text-white/70 rounded-md backdrop-blur-sm ${
-                isLarge
+              className={`font-medium tracking-wide uppercase bg-white/10 text-white/70 rounded-md backdrop-blur-sm ${isLarge
                   ? 'px-3 py-1.5 text-xs'
                   : 'px-2.5 py-1 text-[11px]'
-              }`}
+                }`}
             >
               {t}
             </span>
@@ -159,20 +168,18 @@ function ProjectCard({ project, t }) {
           {/* Title & description */}
           <div className="flex flex-col gap-2 w-full">
             <h3
-              className={`font-headline font-bold text-white ${
-                isLarge
+              className={`font-headline font-bold text-white ${isLarge
                   ? 'text-2xl md:text-3xl'
                   : 'text-xl md:text-2xl'
-              }`}
+                }`}
             >
               {project.title}
             </h3>
             <p
-              className={`text-white/60 leading-relaxed ${
-                isLarge
+              className={`text-white/60 leading-relaxed ${isLarge
                   ? 'text-sm md:text-base max-w-lg'
                   : 'text-sm max-w-md'
-              }`}
+                }`}
             >
               {project.description}
             </p>
@@ -239,11 +246,10 @@ export default function Projects() {
               <button
                 key={cat.value}
                 onClick={() => setFilter(cat.value)}
-                className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${
-                  filter === cat.value
+                className={`px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200 ${filter === cat.value
                     ? 'bg-primary text-white shadow-md shadow-primary/25'
                     : 'bg-neutral-100 dark:bg-neutral-800 text-neutral-600 dark:text-neutral-400 hover:bg-neutral-200 dark:hover:bg-neutral-700'
-                }`}
+                  }`}
               >
                 {t(cat.key)}
               </button>
